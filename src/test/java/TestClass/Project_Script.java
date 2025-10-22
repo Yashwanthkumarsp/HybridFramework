@@ -34,7 +34,7 @@ public class Project_Script extends Generic_Class {
 			WebElement IS = driver.findElement(By.xpath("//abbr[@title='Train_IS']"));
 			action.hoverOverElement(IS);
 			test.log(Status.PASS, "Project page succesfully displaying");
-			String path = ScreenshotUtils.takeScreenshot(driver, "ProjectPage");
+			String path = ScreenshotUtils.takeScreenshot(driver, "ProjectPage2");
 			test.addScreenCaptureFromPath(path, "Project Page");
 		} catch (Exception e) {
 			String path = ScreenshotUtils.takeScreenshot(driver, "Failed ProjectPage");

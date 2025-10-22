@@ -36,5 +36,9 @@ public class JSExecuterUtils {
     public void scrollToTop() {
         js.executeScript("window.scrollTo(0, 0);");
     }
+    public void newtab()
+    {
+    	js.executeScript("window.open();");
+    }
 }
 

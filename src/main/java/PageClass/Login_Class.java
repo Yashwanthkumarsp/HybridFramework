@@ -31,6 +31,7 @@ public void loginpage(String Email, String Password)
 	driver.findElement(email).sendKeys(Email);
 	driver.findElement(password).sendKeys(Password);
 	driver.findElement(signin).click();
+	driver.findElement(projectpage).click();
 }
 public void project(String name)
 {
