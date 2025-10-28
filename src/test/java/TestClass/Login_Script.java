@@ -47,19 +47,19 @@ public class Login_Script extends Generic_Class {
 
 			// Perform login
 			log.loginpage(Email, Password);
-			test.log(Status.PASS, "Login performed successfully"+Email);
+			test.log(Status.PASS, "Login performed successfully for : " + Email);
 
 			// Take screenshot after login
-			String path = ScreenshotUtils.takeScreenshot(driver, "Login_Success_"+Email);
-			test.addScreenCaptureFromPath(path, "Login Screenshot"+Email);
+			String path = ScreenshotUtils.takeScreenshot(driver, "Login_Pass_" + Email);
+			test.addScreenCaptureFromPath(path, "Login Screenshot" + Email);
 
 		} catch (Exception e) {
 			// Capture screenshot on failure
-			String path = ScreenshotUtils.takeScreenshot(driver, "Login_Failure_"+Email);
-			test.addScreenCaptureFromPath(path, "Failure Screenshot"+Email);
+			String path = ScreenshotUtils.takeScreenshot(driver, "Login_Fail_" + Email);
+			test.addScreenCaptureFromPath(path, "Failure Screenshot" + Email);
 
 			// Log failure with exception
-			test.log(Status.FAIL, "Login Test Failed: "+Email + e.getMessage());
+			test.log(Status.FAIL, "Login Test Failed for : " + Email + e.getMessage());
 		}
 	}
 

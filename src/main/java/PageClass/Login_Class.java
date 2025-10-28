@@ -2,9 +2,6 @@ package PageClass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import Utilities.SelectUtils;
 
 public class Login_Class {
 WebDriver driver;
