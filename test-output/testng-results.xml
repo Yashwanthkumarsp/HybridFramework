@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-23T10:35:02 IST" name="Suite" finished-at="2025-10-23T10:35:27 IST" duration-ms="24436">
+  <suite started-at="2025-11-06T16:30:31 IST" name="Default suite" finished-at="2025-11-06T16:30:59 IST" duration-ms="27794">
     <groups>
     </groups>
-    <test started-at="2025-10-23T10:35:02 IST" name="ChromeDriver" finished-at="2025-10-23T10:35:27 IST" duration-ms="24436">
+    <test started-at="2025-11-06T16:30:31 IST" name="Default test" finished-at="2025-11-06T16:30:59 IST" duration-ms="27794">
       <class name="TestClass.Login_Script">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:02 IST" name="setupReport" finished-at="2025-10-23T10:35:02 IST" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:31 IST" name="setupReport" finished-at="2025-11-06T16:30:31 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:04 IST" name="setup" finished-at="2025-10-23T10:35:09 IST" duration-ms="5146" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:32 IST" name="setup" finished-at="2025-11-06T16:30:45 IST" duration-ms="12397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:09 IST" name="logintest" data-provider="login" finished-at="2025-10-23T10:35:11 IST" duration-ms="1894" status="PASS">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:45 IST" name="logintest" data-provider="login" finished-at="2025-11-06T16:30:48 IST" duration-ms="3011" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,15 +31,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:11 IST" name="teardown" finished-at="2025-10-23T10:35:11 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:48 IST" name="teardown" finished-at="2025-11-06T16:30:48 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:11 IST" name="setup" finished-at="2025-10-23T10:35:15 IST" duration-ms="4395" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:48 IST" name="setup" finished-at="2025-11-06T16:30:58 IST" duration-ms="9718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:15 IST" name="logintest" data-provider="login" finished-at="2025-10-23T10:35:27 IST" duration-ms="11465" status="PASS">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:58 IST" name="logintest" data-provider="login" finished-at="2025-11-06T16:30:59 IST" duration-ms="1203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,15 +55,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:27 IST" name="teardown" finished-at="2025-10-23T10:35:27 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:59 IST" name="teardown" finished-at="2025-11-06T16:30:59 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-10-23T10:35:27 IST" name="tearDownReport" finished-at="2025-10-23T10:35:27 IST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:TestClass.Login_Script@1de5f259]" started-at="2025-11-06T16:30:59 IST" name="tearDownReport" finished-at="2025-11-06T16:30:59 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
       </class> <!-- TestClass.Login_Script -->
-    </test> <!-- ChromeDriver -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

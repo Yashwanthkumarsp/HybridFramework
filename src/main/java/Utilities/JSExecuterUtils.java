@@ -14,7 +14,7 @@ public class JSExecuterUtils {
     }
 
     public void scrollIntoView(WebElement element) {
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        js.executeScript("arguments[0].scrollIntoView(false);", element);
     }
 
     public void clickElement(WebElement element) {
@@ -40,5 +40,20 @@ public class JSExecuterUtils {
     {
     	js.executeScript("window.open();");
     }
+    public void passdata(String data, WebElement element)
+    {
+    	js.executeScript("arguments[0].value='"+data+"';", element);
+    }
+    public void passbyid(String id, String data)
+    {
+    	js.executeScript("document.getElementById('"+id+"').value='"+data+"';");
+    	
+    }
+    public void getbyid(String id)
+    {
+    	String data=(String)js.executeScript("return document.getElementById('"+id+"').value;");
+    	System.out.println(data);
+    }
+   
 }
 

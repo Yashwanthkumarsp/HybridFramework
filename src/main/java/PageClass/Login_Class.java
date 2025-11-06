@@ -16,6 +16,7 @@ private By task =By.xpath("//div[text()='Select Task']");
 private By selecttask=By.xpath("//li[text()='Instance Segmentation']");
 private By domain=By.xpath("//div[text()='Select Domain']");
 private By selectdomain=By.xpath("//li[text()='Agriculture']");
+private By searchbox=By.id("searchTopBar");
 
 
 public Login_Class(WebDriver driver)
@@ -28,7 +29,7 @@ public void loginpage(String Email, String Password)
 	driver.findElement(email).sendKeys(Email);
 	driver.findElement(password).sendKeys(Password);
 	driver.findElement(signin).click();
-	driver.findElement(projectpage).click();
+	//driver.findElement(projectpage).click();
 }
 public void project(String name)
 {
@@ -40,5 +41,10 @@ public void project(String name)
 	driver.findElement(domain).click();
 	driver.findElement(selectdomain).click();
 	driver.findElement(savebutton).click();	
+}
+public void find(String Search)
+{
+	driver.findElement(searchbox).click();
+	driver.findElement(searchbox).sendKeys(Search);
 }
 }

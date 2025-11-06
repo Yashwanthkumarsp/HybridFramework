@@ -4,7 +4,7 @@
   <test thread-count="5" name="ChromeDriver" >
 <!-- 	  <parameter name="browsers" value="chrome"></parameter> -->
     <classes>
-      <class name="TestClass.Login_Script"/>
+      <class name="TestClass.Project_Script"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

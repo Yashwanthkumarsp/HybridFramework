@@ -28,8 +28,8 @@ public class Generic_Class {
 		ConfigUtils.loadconfig();
 		String ReportName = ConfigUtils.getProperty("report");
 		// Define where the report will be saved
-		String reportpath = System.getProperty("user.dir") + "/Reports/" + ReportName;
-		ExtentSparkReporter reporter = new ExtentSparkReporter(reportpath + ".html");
+		String reportpath = System.getProperty("user.dir") + "/Reports/" + ReportName+".html";
+		ExtentSparkReporter reporter = new ExtentSparkReporter(reportpath);
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 	}

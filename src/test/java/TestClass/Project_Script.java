@@ -14,6 +14,7 @@ import Utilities.ActionUtils;
 import Utilities.ExcelUtils;
 import Utilities.JSExecuterUtils;
 import Utilities.ScreenshotUtils;
+import Utilities.Fluentwait;
 
 public class Project_Script extends Generic_Class {
 
@@ -32,6 +33,7 @@ public class Project_Script extends Generic_Class {
 			//log.project();
 			js.scrollToBottom();
 			WebElement IS = driver.findElement(By.xpath("//abbr[@title='Train_IS']"));
+			Fluentwait.wait(driver, 10, 2, IS);
 			action.hoverOverElement(IS);
 			test.log(Status.PASS, "Project page succesfully displaying");
 			String path = ScreenshotUtils.takeScreenshot(driver, "ProjectPage2");

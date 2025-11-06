@@ -10,6 +10,7 @@ import com.aventstack.extentreports.Status;
 import BaseClass.Generic_Class;
 import PageClass.Login_Class;
 import Utilities.ExcelUtils;
+import Utilities.JSExecuterUtils;
 import Utilities.ScreenshotUtils;
 
 public class CreateProject_Script extends Generic_Class{
@@ -25,6 +26,7 @@ public void createproject() throws EncryptedDocumentException, IOException
 	test.log(Status.PASS, "Login Successfull");
 	log.project("Demo Project");
 	test.log(Status.PASS, "Project created");
+	JSExecuterUtils js=new JSExecuterUtils(driver);
 	String path=ScreenshotUtils.takeScreenshot(driver, "Create_Project");
 	test.addScreenCaptureFromPath(path,"Project Create Proof");
 	}
